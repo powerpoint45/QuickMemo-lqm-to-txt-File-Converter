@@ -76,8 +76,16 @@ public class Main {
 				}
 				
 				JSONArray a = (JSONArray)jsonObject.get("MemoObjectList");
-				JSONObject o = (JSONObject)a.get(0);
-				writeTextFile(f, o.get("DescRaw"));				
+				String output = "";
+				
+				for (int i = 0; i< a.size(); i++) {
+					String raw = (String) ((JSONObject)a.get(i)).get("DescRaw");
+					if (!output.equals(""))
+						output+="\n";
+					output+=raw;
+				}
+				
+				writeTextFile(f, output);				
 				
 			} catch (ZipException e) {
 				e.printStackTrace();
