@@ -1,6 +1,9 @@
 # Android App Dec 15, 2022
 I just published an Android app available on Google Play where you can convert and edit the converted file
 <https://play.google.com/store/apps/details?id=com.luciddevteam.lqmtotxtconvert>
+Ad-Free Donate Version:
+<https://play.google.com/store/apps/details?id=com.luciddevteam.lqmtotxtconvertpro>
+Thanks for helping support development 
 
 # QuickMemo-lqm-to-txt-File-Converter
 This java program converts LG's QuickMemo lqm note files into text (txt) files
